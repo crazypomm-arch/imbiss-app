@@ -22,10 +22,11 @@ const navItems = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/voorraad', label: 'Voorraad', icon: BarChart3 },
   { href: '/producten', label: 'Producten', icon: Package },
+  { href: '/leveranciers', label: 'Leveranciers', icon: Truck },
   { href: '/locaties', label: 'Locaties', icon: MapPin },
   { href: '/overplaatsingen', label: 'Overplaatsingen', icon: ArrowLeftRight },
   { href: '/boodschappen', label: 'Boodschappen', icon: ShoppingCart },
-  { href: '/bestellingen', label: 'Bestellingen', icon: Truck },
+  { href: '/bestellingen', label: 'Bestellingen', icon: Package },
 ]
 
 const adminItems = [
