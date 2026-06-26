@@ -131,10 +131,8 @@ export function LocationsClient({ locations: initial }: { locations: Location[] 
                       {loc.description && <p className="text-zinc-500 text-xs mt-0.5">{loc.description}</p>}
                     </div>
                     <DropdownMenu>
-                      <DropdownMenuTrigger asChild>
-                        <Button variant="ghost" size="icon" className="text-zinc-500 hover:text-white h-8 w-8 shrink-0">
-                          <MoreHorizontal className="w-4 h-4" />
-                        </Button>
+                      <DropdownMenuTrigger className="text-zinc-500 hover:text-white h-8 w-8 shrink-0 flex items-center justify-center rounded-md hover:bg-zinc-800 transition-colors">
+                        <MoreHorizontal className="w-4 h-4" />
                       </DropdownMenuTrigger>
                       <DropdownMenuContent align="end" className="bg-zinc-900 border-zinc-800 text-white">
                         <DropdownMenuItem onClick={() => openEdit(loc)} className="gap-2 cursor-pointer hover:bg-zinc-800">
