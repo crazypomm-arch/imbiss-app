@@ -1,0 +1,98 @@
+{
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "search": "Suchen",
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "Nein",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "actions": "Aktionen",
+    "back": "Zurück",
+    "close": "Schließen",
+    "noResults": "Keine Ergebnisse gefunden",
+    "required": "Pflichtfeld"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "inventory": "Lager",
+    "products": "Produkte",
+    "locations": "Standorte",
+    "transfers": "Umlagerungen",
+    "shopping": "Einkaufsliste",
+    "orders": "Bestellungen",
+    "suppliers": "Lieferanten",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "loginButton": "Anmelden",
+    "loginError": "Ungültige E-Mail-Adresse oder Passwort",
+    "welcome": "Willkommen zurück"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "lowStock": "Niedriger Bestand",
+    "thtAlerts": "MHD-Warnungen",
+    "openOrders": "Offene Bestellungen",
+    "pendingTransfers": "Offene Aufträge"
+  },
+  "locations": {
+    "title": "Standorte",
+    "add": "Standort hinzufügen",
+    "name": "Name",
+    "site": "Niederlassung",
+    "type": "Typ",
+    "types": {
+      "diepvries": "Tiefkühl",
+      "koeling": "Kühlung",
+      "droog": "Trockenlager",
+      "winkel": "Geschäft",
+      "overig": "Sonstige"
+    }
+  },
+  "products": {
+    "title": "Produkte",
+    "add": "Produkt hinzufügen",
+    "name": "Name",
+    "category": "Kategorie",
+    "baseUnit": "Basiseinheit",
+    "minStock": "Mindestbestand",
+    "thtTracking": "MHD verfolgen",
+    "canFreeze": "Einfrierbar"
+  },
+  "transfers": {
+    "title": "Umlagerungen",
+    "add": "Auftrag erstellen",
+    "status": {
+      "aangemaakt": "Erstellt",
+      "in_wacht": "Wartend",
+      "in_uitvoering": "In Bearbeitung",
+      "afgeleverd": "Geliefert",
+      "probleem": "Problem"
+    }
+  },
+  "orders": {
+    "title": "Bestellungen",
+    "advice": "Bestellvorschlag",
+    "newOrder": "Neue Bestellung",
+    "status": {
+      "concept": "Entwurf",
+      "besteld": "Bestellt",
+      "wacht_op_aanvulling": "Wartet auf Ergänzung",
+      "deels_ontvangen": "Teilweise erhalten",
+      "ontvangen": "Erhalten",
+      "geannuleerd": "Storniert"
+    }
+  }
+}

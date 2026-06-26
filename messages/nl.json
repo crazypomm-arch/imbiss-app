@@ -1,0 +1,98 @@
+{
+  "common": {
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "add": "Toevoegen",
+    "search": "Zoeken",
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "confirm": "Bevestigen",
+    "yes": "Ja",
+    "no": "Nee",
+    "active": "Actief",
+    "inactive": "Inactief",
+    "actions": "Acties",
+    "back": "Terug",
+    "close": "Sluiten",
+    "noResults": "Geen resultaten gevonden",
+    "required": "Verplicht"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "inventory": "Voorraad",
+    "products": "Producten",
+    "locations": "Locaties",
+    "transfers": "Overplaatsingen",
+    "shopping": "Boodschappen",
+    "orders": "Bestellingen",
+    "suppliers": "Leveranciers",
+    "settings": "Instellingen",
+    "logout": "Uitloggen"
+  },
+  "auth": {
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "loginButton": "Inloggen",
+    "loginError": "Ongeldig e-mailadres of wachtwoord",
+    "welcome": "Welkom terug"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "lowStock": "Lage voorraad",
+    "thtAlerts": "THT meldingen",
+    "openOrders": "Open bestellingen",
+    "pendingTransfers": "Openstaande opdrachten"
+  },
+  "locations": {
+    "title": "Locaties",
+    "add": "Locatie toevoegen",
+    "name": "Naam",
+    "site": "Vestiging",
+    "type": "Type",
+    "types": {
+      "diepvries": "Diepvries",
+      "koeling": "Koeling",
+      "droog": "Droge opslag",
+      "winkel": "Winkel",
+      "overig": "Overig"
+    }
+  },
+  "products": {
+    "title": "Producten",
+    "add": "Product toevoegen",
+    "name": "Naam",
+    "category": "Categorie",
+    "baseUnit": "Basiseenheid",
+    "minStock": "Minimum voorraad",
+    "thtTracking": "THT bijhouden",
+    "canFreeze": "Kan worden ingevroren"
+  },
+  "transfers": {
+    "title": "Overplaatsingen",
+    "add": "Opdracht aanmaken",
+    "status": {
+      "aangemaakt": "Aangemaakt",
+      "in_wacht": "In wacht",
+      "in_uitvoering": "In uitvoering",
+      "afgeleverd": "Afgeleverd",
+      "probleem": "Probleem"
+    }
+  },
+  "orders": {
+    "title": "Bestellingen",
+    "advice": "Besteladvies",
+    "newOrder": "Nieuwe bestelling",
+    "status": {
+      "concept": "Concept",
+      "besteld": "Besteld",
+      "wacht_op_aanvulling": "Wacht op aanvulling",
+      "deels_ontvangen": "Deels ontvangen",
+      "ontvangen": "Ontvangen",
+      "geannuleerd": "Geannuleerd"
+    }
+  }
+}
