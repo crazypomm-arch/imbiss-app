@@ -16,13 +16,15 @@ import {
   LogOut,
   ChevronRight,
   BarChart3,
+  ClipboardList,
 } from 'lucide-react'
 
 const navItems = [
-  { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/voorraad', label: 'Voorraad', icon: BarChart3 },
-  { href: '/producten', label: 'Producten', icon: Package },
-  { href: '/leveranciers', label: 'Leveranciers', icon: Truck },
+  { href: '/dashboard',     label: 'Dashboard',      icon: LayoutDashboard },
+  { href: '/voorraad',      label: 'Voorraad',        icon: BarChart3 },
+  { href: '/tellingen',     label: 'Telling starten', icon: ClipboardList },
+  { href: '/producten',     label: 'Producten',       icon: Package },
+  { href: '/leveranciers',  label: 'Leveranciers',    icon: Truck },
   { href: '/locaties', label: 'Locaties', icon: MapPin },
   { href: '/overplaatsingen', label: 'Overplaatsingen', icon: ArrowLeftRight },
   { href: '/boodschappen', label: 'Boodschappen', icon: ShoppingCart },
